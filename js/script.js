@@ -13,7 +13,7 @@ function calculateBMI() {
     document.getElementById("progress-remark").className = "progress-bar progress-bar-striped progress-bar-animated";
   }
   else if(bmi >= 18.5 && bmi <= 24.9) {
-    document.getElementById("txt-remark").innerHTML = "Normal";
+    document.getElementById("txt-remark").innerHTML = "Normal (Healthy weight)";
     document.getElementById("progress-remark").className = "progress-bar progress-bar-striped progress-bar-animated bg-success";
   }
   else if(bmi >= 25 && bmi <= 29.9) {
