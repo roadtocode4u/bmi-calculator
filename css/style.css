@@ -10,4 +10,12 @@ body{
 .title-container{
   background-color:white;
   padding:10px;
+  border-radius: 10px;
+}
+.abc{
+  background-color: whitesmoke;
+   margin-top: 20px;
+}
+#progress-remark{
+  background-color: wheat;
 }
